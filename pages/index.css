@@ -1,0 +1,18 @@
+@import url("../vendor/normalize.css");
+@import url("../fonts/inter.css");
+
+@import url("../blocks/body/body.css");
+@import url("../blocks/header/header.css");
+@import url('../blocks/header/header-link/header-link.css');
+@import url('../blocks/header/link/link.css');
+
+@import url("../blocks/main/main.css");
+@import url("../blocks/main/aside/aside.css");
+@import url("../blocks/main/title/title.css");
+@import url("../blocks/main/image/image.css");
+@import url("../blocks/main/img/img.css");
+@import url("../blocks/main/contacts-item/contacts-item.css");
+@import url("../blocks/main/contacts-icon/contacts-icon.css");
+@import url("../blocks/main/subtitle/subtitle.css");
+@import url("../blocks/main/main-section/main-section.css");
+@import url("../blocks/footer/footer.css");
