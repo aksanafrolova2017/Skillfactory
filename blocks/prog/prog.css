@@ -1,0 +1,30 @@
+.prog {
+
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+@media screen and (max-width: 1439px) {
+    .prog {
+        column-gap: 40px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .prog {
+        column-gap: 40px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .prog {
+        column-gap: 0;
+        width: 100%;
+    }
+}

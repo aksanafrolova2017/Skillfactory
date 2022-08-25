@@ -1,0 +1,28 @@
+.page {
+    background-color: orange;
+    font-family: "Inter", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 28px;
+    box-sizing: border-box;
+}
+
+
+/* @media screen and (max-width: 1023px) {
+    .page {
+      
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .page {
+      
+    }
+  } */

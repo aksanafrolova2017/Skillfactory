@@ -1,0 +1,13 @@
+.project__list {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-weight: 400;
+    font-size: 20px;
+   
+    
+}
+
+.project__list:hover {
+    color:blue;
+}

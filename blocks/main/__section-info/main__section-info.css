@@ -1,0 +1,23 @@
+.main__section-info {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: cursive;
+    margin: 15px auto 25px;
+    max-width: 800px;
+
+}
+
+
+@media screen and (max-width: 1023px) {
+    .main__section-info {
+        margin: 15px 15px 25px;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main__section-info {
+        margin: 15px auto 25px;
+    }
+}

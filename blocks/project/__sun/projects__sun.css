@@ -1,0 +1,17 @@
+.project__sun {
+
+    width: 87px;
+    height: 87px;
+    background-image: url(../../../images/sun.png);
+    background-size: cover;
+    margin-left: 50px;
+    animation: spin 15s linear infinite;
+    margin-bottom: 350px;
+
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,7 @@
+    .company__link:hover {
+        color:blue;
+    }
+    
+    .company__link:visited {
+        color:black;
+    }

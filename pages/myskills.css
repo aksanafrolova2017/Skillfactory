@@ -1,0 +1,23 @@
+@import url("../vendor/normalize.css");
+@import url("../fonts/fonts.css");
+
+@import url("../blocks/prog/prog.css");
+@import url("../blocks/prog/__image/prog__image.css");
+@import url("../blocks/prog/__item/prog__item.css");
+@import url("../blocks/prog/__name/prog__name.css");
+@import url("../blocks/prog/__title/prog__title.css");
+@import url("../blocks/progs/progs.css");
+
+@import url("../blocks/body/body.css");
+
+@import url("../blocks/langs/langs.css");
+@import url("../blocks/langs/__info/langs__info.css");
+@import url("../blocks/langs/__name/langs__name.css");
+
+@import url("../blocks/skills/skills.css");
+@import url("../blocks/skills/__name/skills__name.css");
+@import url("../blocks/skills/__info/skills__info.css");
+@import url("../blocks/");
+
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__author/footer__author.css");

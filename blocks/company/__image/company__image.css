@@ -1,0 +1,24 @@
+.company__image {
+    border-style: none;
+    height: 250px;
+    width: 300px;
+    margin-left: 40px;
+    overflow: hidden;
+    border-radius: 20%;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1023px) {
+    .company__image {
+
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .company__image {
+        margin-left: -40px;
+        margin-bottom: 20px;
+    }
+}

@@ -1,54 +1,171 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
- <link rel="stylesheet" href="pages/index.css" />
-   <title>Фролова Аксана. Веб-разработчик </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="pages/index.css" />
+  <link rel="icon" type="image/png" href="./images/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="./images/favicon-16x16.png" sizes="16x16" />
+  <title>Резюме</title>
+  <meta name="viewport" content="width=device-width, inital-scale=1">
+  <meta http-equiv="x-UA-Compatoble" content="IE=edge">
 </head>
-<body>
+
+<body class="body">
+
+  <div class="page">
     <header class="header">
-        <a href="#about" class="header-link link">Обо мне</a>
-        <a href="#skills" class="header-link link">Навыки</a>
-        <a href="#contacts" class="header-link link">Контакты</a>
-    </header>    
+      <!-- <ul class="header__lang">
+        <li>
+          <a href="./index.html" target="_self" class="header__lang-link">Ru</a>
+        </li>
+        <li>
+          <a href="#" target="_self" class="header__lang-link">En</a>
+        </li>
+      </ul> -->
+      <ul class="header__links">
+        <li class="link header__link">
+          <a href="./skills.html" target="_blank">Навыки</a>
+        </li>
+        <li class="link header__link">
+          <a href="./myprojects.html" target="_blank">Мои проекты</a>
+        </li>
+        <li class="link header__link">
+          <a href="./mycontacts.html" target="_blank">Контакты</a>
+        </li>
+      </ul>
+    </header>
 
     <main class="main">
-    <aside class="aside">
-      <img src="images/IMG-20210701-WA0029.jpg" alt="Фото Фролова Аксана" height="350" width="300">
-    <p class="contacts-item">
-      <img src="./images/Mobile-Phone-icon.png" alt="phone" class="contacts-icon">
-      <a href="tel:89781821885" class="link">89781821885</a>
-    </p>
-    <p class="contacts-item">
-      <img src="./images/Mail-icon.png" alt="email" class="contacts-icon">
-      <a href="mailto:aksanafrolova2017@yandex.ru" class="link">aksanafrolova2017@yandex.ru</a>
-    </p>
-   </aside>
 
-    <section class="main-section">
-     <h1 class="title"> Фролова Аксана. 
-      Веб-разработчик. </h1>
-     <h2 class="subtitle" id="about">Обо мне</h2>
-     <p>Прохожу 7 месячный курс "Frontend-разработчик" в Skillfactory,
-       а также курс "Разработка сайтов: верстка CSS и программирование 
-       на языке JavaScript" в Московском финансово-промышленном
-        университете "Синергия". Хочу войти в сферу IT и знания применять
-         на практике. </p>
-     <h2 class="subtitle" id="skills">Навыки</h2>
+      <section class="main__section">
 
-     <ul class="list">
-      <li class="list-item">HTML</li>
-      <li class="list-item">CSS</li>
-      <li class="list-item">Github</li>
-      <li class="list-item">VSCode</li>
-     </ul>
-     </section>
-     </main>
+        <img src="./images/Фролова.jpg" alt="Фролова фото" width="300" height="auto" class="main__photo">
+        <h1 class="main__section-title"> Фролова Аксана
+          <br>
+          Веб-разработчик
+        </h1>
+        <h2 class="main__section-subtitle" id="about">Обо мне</h2>
+        <p class="main__section-info">Прохожу 7 месячный курс "Frontend-разработчик" в Skillfactory,
+          а также курс "Разработка сайтов: верстка CSS и программирование
+          на языке JavaScript" в Московском финансово-промышленном
+          университете "Синергия". Хочу войти в сферу IT и знания применять
+          на практике. </p>
+      </section>
 
-  
-<footer class="footer">
-    <a href="https://skillfactory.ru/" class="link">Skillfactory.ru</a>
-    <p>&copy; Frolova, 2022</p>
-</footer>
+      <section class="job">
+        <h1 class="job__about">Опыт работы</h1>
+        <article class="company">
+          <h2 class="company__name">
+            <a href="http://www.airproducts.ru/" class="link company__link" target="_blank">ООО "Эйр
+              продактс"</a>
+          </h2>
+          <div class="company__location">
+            <p>г. Москва
+            </p>
+          </div>
+          <img src="./images/airproducts.jpg" alt="Завод Эйр Продактс" class="company__image" />
+          <div class="job">
+            <p class="job__period">
+              <b>Период:</b> Август 2017г. - по настоящее время
+            </p>
+            <p clas="job__position">
+              <b>Должность:</b> Администратор офиса
+            </p>
+            <p class="job__experience">
+              <b>Обязаности:</b>Прием иностранных коллег, деловая переписка и общение на английском языке;
+              организация корпоративных мероприятий, собраний менеджеров, конференций;
+              контроль за состоянием офиса и выполнение необходимых ремонтных работ;
+              взаимодействие с арендодателями, поставщиками, клининговыми и др. компаниями на предмет ежедневного
+              обеспечения офиса;
+              взаимодействие с туристическими агентствами для открытия виз, организации командировок.
+            </p>
+          </div>
+        </article>
+        <article class="company">
+          <h2 class="company__name">
+            <a href="https://www.cfo-russia.ru/" class="link company__link" target="_blank">ООО
+              "Просперити"</a>
+          </h2>
+          <div class="company__location">
+            <p>г. Севастополь</p>
+          </div>
+          <img src="./images/135.jpg" alt="Конферения" class="company__image" />
+          <div class="job">
+            <p class="job__period">
+              <b>Период:</b> 2014 - 2016г.
+            </p>
+            <p clas="job__position">
+              <b>Должность:</b> Продюсер
+            </p>
+            <p class="job__experience">
+              <b>Обязаности:</b> Поиск контактов представителей крупнейших компаний на территории РФ;
+              общение с руководителями для выявления актуальных тем;
+              составление программы конференций;
+              поиск и подбор спикеров для проведения конференций;
+              общение с менеджером отеля и подрядчиками, решения всех организационных вопросов;
+              прилет в Москву и проведение конференций, контроль прибытия спикеров,
+              взаимодействие со всеми участниками, редактирование расписания, решение возникающих вопросов.
+            </p>
+          </div>
+        </article>
+
+      </section>
+      <section class="education">
+        <h1 class="education__experience">Образование</h1>
+        <article class="university">
+          <h2 class="university__name"><a href="https://knute.edu.ua/blog/read/?pid=601&ru"
+              class="link university__link" target="_blank">Киевский
+              национальный торгово-экономический университет</a></h2>
+          <div class="university__location">
+            <p>Украина, г. Киев</p>
+          </div>
+
+          <img src="./images/knteu_logo.png" alt="КНТЕУ" class="university__image" />
+          <div class="study">
+            <p class="study__period">
+              <b>Период:</b> 2007 - 2013г.
+            </p>
+            <p clas="study__qualification">
+              <b>Степень:</b> Магистр
+            </p>
+            <p class="study__direction">
+              <b>Специальность:</b> Туризмоведение
+            </p>
+          </div>
+        </article>
+        <article class="university">
+          <h2 class="university__name"><a href="https://www.uca.fr/" class="link university__link"
+              target="_blank">Universite
+              Clermont-Ferrand-1</a></h2>
+          <div class="university__location">
+            <p>Франция, г. Клермон-Ферран</p>
+          </div>
+
+          <img src="./images/fr.jpg" alt="Universite 
+        Clermont-Ferrand-1" class="university__image" />
+          <div class="study">
+            <p class="study__period">
+              <b>Период:</b> 2008 - 2011г.
+            </p>
+            <p clas="study__qualification">
+              <b>Степень:</b> Бакалавр
+            </p>
+            <p class="study__direction">
+              <b>Специальность:</b> Управление малым и средним бизнесом
+            </p>
+          </div>
+        </article>
+      </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+      <p class="footer__author">&copy; Aksana Frolova, 2022</p>
+    </footer>
+  </div>
 </body>
+
 </html>

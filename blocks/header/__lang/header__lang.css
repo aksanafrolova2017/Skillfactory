@@ -1,0 +1,7 @@
+.header__lang {
+    display: flex; 
+    flex-direction: row-reverse;
+    list-style-type: none;
+    gap: 12px;
+    margin-right: 20px ;
+}

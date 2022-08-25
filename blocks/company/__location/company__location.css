@@ -1,0 +1,17 @@
+.company__location {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .company__location {
+        margin-top: 40px;
+
+    }
+}
+
+    @media screen and (max-width: 767px) {
+        .company__location {
+            margin-top: 0;
+
+        }
+        }
